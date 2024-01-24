@@ -36,8 +36,54 @@ namespace FiniteFieldCalculator.Tests
             Assert.IsFalse(result);
         }
 
+        [Test]
+        public void HandleSuccessfulConversion_WhenPrime_ShouldShowSuccessMessage()
+        {
+            // Arrange
+            var messageBoxWrapperMock = new Mock<IMessageBoxWrapper>();
+            var form1 = new Form1();
+            form1.MessageBoxWrapper = messageBoxWrapperMock.Object;
 
- 
+            // Act
+            form1.HandleSuccessfulConversion(7);
+
+            // Assert
+            messageBoxWrapperMock.Verify(m => m.Show("Input successful."), Times.Once);
+        }
+
+        [Test]
+        public void HandleSuccessfulConversion_InputSuccessful_ShowsSuccessMessage()
+        {
+            // Arrange
+            var form = new Form1();
+            var messageBoxMock = new Mock<IMessageBoxWrapper>();
+            form.MessageBoxWrapper = messageBoxMock.Object;
+
+            // Act
+            form.HandleSuccessfulConversion(5);
+
+            // Assert
+            messageBoxMock.Verify(m => m.Show("Input successful."), Times.Once);
+        }
+
+        [Test]
+        public void BtnAddClick_ValidOperands_CalculatesResult()
+        {
+            // Arrange
+            var form = new Form1();
+
+            // Set up your TextBox values
+            form.txtOp1.Text = "5";
+            form.txtOp2.Text = "7";
+            form.txtPrime.Text = "11";
+
+            // Act
+            form.btnAdd_Click(null, EventArgs.Empty);
+
+            // Assert
+            Assert.AreEqual("1", form.txtResult.Text);
+        }
+
 
         [Test]
         public void NameOfMethod()

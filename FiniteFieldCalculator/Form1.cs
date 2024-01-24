@@ -10,6 +10,7 @@ namespace FiniteFieldCalculator
             InitializeComponent();
         }
 
+
         public static bool isPrime(int num)
         {
             if (num <= 1)
@@ -56,13 +57,14 @@ namespace FiniteFieldCalculator
         {
             if (isPrime(intNum))
             {
-                MessageBox.Show("Input successful.");
+                MessageBoxWrapper.Show("Input successful.");
             }
             else
             {
-                MessageBox.Show("Input failed. Please enter a prime number.");
+                MessageBoxWrapper.Show("Input failed. Please enter a prime number.");
             }
         }
+
 
         public void handleSelectedNISTPrime(string prime)
         {
@@ -110,7 +112,7 @@ namespace FiniteFieldCalculator
             return true;
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        public void btnAdd_Click(object sender, EventArgs e)
         {
             // convert input number strings to integers
             if (textToBigInteger(txtOp1, out BigInteger intValue1) &&
@@ -208,6 +210,15 @@ namespace FiniteFieldCalculator
 
         }
         //!!! to do : write unit tests for all methods, README file
+
+        private IMessageBoxWrapper _messageBoxWrapper;
+
+        // Property to set the IMessageBoxWrapper instance
+        public IMessageBoxWrapper MessageBoxWrapper
+        {
+            get => _messageBoxWrapper ?? new MessageBoxWrapper(); // Default to a real MessageBoxWrapper if not set
+            set => _messageBoxWrapper = value;
+        }
 
     }
 }

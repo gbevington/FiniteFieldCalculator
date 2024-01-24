@@ -237,12 +237,12 @@
         private Label label4;
         private Label label3;
         private Label label2;
-        private TextBox txtResult;
+        public TextBox txtResult;
         private Label label1;
-        private TextBox txtOp1;
-        private TextBox txtOp2;
-        private TextBox txtExpo;
-        private TextBox txtPrime;
+        public TextBox txtOp1;
+        public TextBox txtOp2;
+        public TextBox txtExpo;
+        public TextBox txtPrime;
         private Button btnExponent;
     }
 }
