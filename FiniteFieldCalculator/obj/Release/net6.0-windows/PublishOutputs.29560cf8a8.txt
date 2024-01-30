@@ -1,8 +1,0 @@
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\FiniteFieldCalculator.exe
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\FiniteFieldCalculator.dll
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\FiniteFieldCalculator.deps.json
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\FiniteFieldCalculator.runtimeconfig.json
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\FiniteFieldCalculator.pdb
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\Castle.Core.dll
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\Moq.dll
-C:\Users\PC1\Desktop\FiniteFieldCalc\FiniteFieldCalculator\bin\Release\net6.0-windows\publish\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll

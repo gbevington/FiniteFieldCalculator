@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "FiniteFieldCalculator.Tests/1.0.0": {
         "dependencies": {
-          "FiniteFieldCalculator": "1.0.0",
+          "FFCalcBusinessLogic": "1.0.0",
+          "FFCalcUserInterfaceLogic": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
+          "Moq": "4.20.70",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.4.2",
@@ -349,12 +351,17 @@
         }
       },
       "System.Reflection.Metadata/1.6.0": {},
-      "FiniteFieldCalculator/1.0.0": {
+      "FFCalcBusinessLogic/1.0.0": {
+        "runtime": {
+          "FFCalcBusinessLogic.dll": {}
+        }
+      },
+      "FFCalcUserInterfaceLogic/1.0.0": {
         "dependencies": {
-          "Moq": "4.20.70"
+          "FFCalcBusinessLogic": "1.0.0"
         },
         "runtime": {
-          "FiniteFieldCalculator.dll": {}
+          "FFCalcUserInterfaceLogic.dll": {}
         }
       }
     }
@@ -477,7 +484,12 @@
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
-    "FiniteFieldCalculator/1.0.0": {
+    "FFCalcBusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFCalcUserInterfaceLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
