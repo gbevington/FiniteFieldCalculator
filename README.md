@@ -27,6 +27,8 @@ To use this application, follow these steps:
 ### Executable Release
 
 Alternatively, you can access the pre-built executable on the repository's release page. This allows users to skip the compilation process and directly use the application.
+![WindowsGUIScrnShot](https://github.com/gbevington/FiniteFieldCalculator/assets/133910347/a258d856-357b-4df4-ba34-239bf0ccb1c9)
+
 
 ## Upcoming Changes
 
