@@ -55,6 +55,9 @@
           "projectReferences": {
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
+            },
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
             }
           }
         }

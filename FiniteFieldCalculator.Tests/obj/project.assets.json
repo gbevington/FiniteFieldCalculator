@@ -1138,8 +1138,8 @@
     },
     "FFCalcBusinessLogic/1.0.0": {
       "type": "project",
-      "path": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj",
-      "msbuildProject": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj"
+      "path": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj",
+      "msbuildProject": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj"
     },
     "FFCalcUserInterfaceLogic/1.0.0": {
       "type": "project",

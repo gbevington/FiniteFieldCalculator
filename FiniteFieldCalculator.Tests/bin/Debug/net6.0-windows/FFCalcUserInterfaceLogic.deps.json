@@ -13,21 +13,11 @@
         "runtime": {
           "FFCalcUserInterfaceLogic.dll": {}
         }
-      },
-      "FFCalcBusinessLogic/1.0.0": {
-        "runtime": {
-          "FFCalcBusinessLogic.dll": {}
-        }
       }
     }
   },
   "libraries": {
     "FFCalcUserInterfaceLogic/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FFCalcBusinessLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
