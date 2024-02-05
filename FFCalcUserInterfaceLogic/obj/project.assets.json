@@ -1,12 +1,38 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     "net6.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
+=======
+    "net6.0-windows7.0": {
+      "FFCalcBusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FFCalcBusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FFCalcBusinessLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FFCalcBusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj",
+      "msbuildProject": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "FFCalcBusinessLogic >= 1.0.0"
+>>>>>>> dev
     ]
   },
   "packageFolders": {
@@ -38,6 +64,12 @@
           "projectReferences": {
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
+<<<<<<< HEAD
+=======
+            },
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
+>>>>>>> dev
             }
           }
         }
@@ -73,6 +105,7 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   },
   "logs": [
     {
@@ -85,4 +118,7 @@
       ]
     }
   ]
+=======
+  }
+>>>>>>> dev
 }

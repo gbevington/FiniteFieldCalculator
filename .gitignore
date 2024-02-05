@@ -5,6 +5,10 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# Visual Studio build directories
+obj/
+bin/
+
 # Tye
 .run/
 

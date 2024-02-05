@@ -440,17 +440,27 @@
           }
         }
       },
-      "FiniteFieldCalculator/1.0.0": {
+      "FFCalcBusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FFCalcBusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FFCalcBusinessLogic.dll": {}
+        }
+      },
+      "FFCalcUserInterfaceLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Moq": "4.20.70"
+          "FFCalcBusinessLogic": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/FiniteFieldCalculator.dll": {}
+          "bin/placeholder/FFCalcUserInterfaceLogic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FiniteFieldCalculator.dll": {}
+          "bin/placeholder/FFCalcUserInterfaceLogic.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -1126,16 +1136,23 @@
         "version.txt"
       ]
     },
-    "FiniteFieldCalculator/1.0.0": {
+    "FFCalcBusinessLogic/1.0.0": {
       "type": "project",
-      "path": "../FiniteFieldCalculator/FiniteFieldCalculator.csproj",
-      "msbuildProject": "../FiniteFieldCalculator/FiniteFieldCalculator.csproj"
+      "path": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj",
+      "msbuildProject": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj"
+    },
+    "FFCalcUserInterfaceLogic/1.0.0": {
+      "type": "project",
+      "path": "../FFCalcUserInterfaceLogic/FFCalcUserInterfaceLogic.csproj",
+      "msbuildProject": "../FFCalcUserInterfaceLogic/FFCalcUserInterfaceLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "FiniteFieldCalculator >= 1.0.0",
+      "FFCalcBusinessLogic >= 1.0.0",
+      "FFCalcUserInterfaceLogic >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "Moq >= 4.20.70",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
@@ -1169,8 +1186,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FiniteFieldCalculator.csproj": {
-              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FiniteFieldCalculator.csproj"
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj"
+            },
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
             }
           }
         }
@@ -1188,6 +1208,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.70, )"
           },
           "NUnit": {
             "target": "Package",

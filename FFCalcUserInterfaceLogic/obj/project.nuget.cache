@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "WkvTxSQ9z/58QqxkOjovYk2aLMbiqRGW9vrqtCigAgJqvbC4JU42v7wtoMwzIvuFQ7NyBHrH5rSH6R6nvSkuYg==",
   "success": false,
   "projectFilePath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj",
@@ -15,4 +16,11 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "ZoYLpJnzO3aBykwJ5gi3vyswG+Chhe77S9jnfWtcaOcaNrIdgdb3pz9HMWRruTMXFSwWEBAltHOizJVzQw43hg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> dev
 }
