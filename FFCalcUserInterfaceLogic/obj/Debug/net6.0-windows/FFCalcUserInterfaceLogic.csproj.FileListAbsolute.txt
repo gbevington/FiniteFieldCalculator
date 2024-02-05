@@ -1,3 +1,10 @@
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.exe
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.deps.json
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.runtimeconfig.json
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.dll
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.pdb
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcBusinessLogic.dll
+C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcBusinessLogic.pdb
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.csproj.AssemblyReference.cache
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FiniteFieldCalculator.Form1.resources
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FiniteFieldCalculator.NISTPrimesForm.resources
@@ -6,13 +13,6 @@ C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-w
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.AssemblyInfoInputs.cache
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.AssemblyInfo.cs
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.csproj.CoreCompileInputs.cache
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.exe
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.deps.json
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.runtimeconfig.json
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.dll
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcUserInterfaceLogic.pdb
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcBusinessLogic.dll
-C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\bin\Debug\net6.0-windows\FFCalcBusinessLogic.pdb
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.csproj.CopyComplete
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\FFCalcUserInterfaceLogic.dll
 C:\Users\PC1\Desktop\FiniteFieldCalc\FFCalcUserInterfaceLogic\obj\Debug\net6.0-windows\refint\FFCalcUserInterfaceLogic.dll

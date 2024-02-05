@@ -1,26 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "WkvTxSQ9z/58QqxkOjovYk2aLMbiqRGW9vrqtCigAgJqvbC4JU42v7wtoMwzIvuFQ7NyBHrH5rSH6R6nvSkuYg==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
-=======
   "dgSpecHash": "ZoYLpJnzO3aBykwJ5gi3vyswG+Chhe77S9jnfWtcaOcaNrIdgdb3pz9HMWRruTMXFSwWEBAltHOizJVzQw43hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj",
   "expectedPackageFiles": [],
   "logs": []
->>>>>>> dev
 }

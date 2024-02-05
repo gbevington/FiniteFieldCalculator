@@ -30,12 +30,9 @@
             "projectReferences": {
               "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
                 "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
-<<<<<<< HEAD
-=======
               },
               "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
                 "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
->>>>>>> dev
               }
             }
           }
@@ -71,8 +68,6 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
-<<<<<<< HEAD
-=======
     },
     "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
       "version": "1.0.0",
@@ -183,7 +178,6 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
->>>>>>> dev
     }
   }
 }

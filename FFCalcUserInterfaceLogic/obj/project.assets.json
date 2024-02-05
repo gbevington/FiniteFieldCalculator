@@ -1,14 +1,6 @@
 {
   "version": 3,
   "targets": {
-<<<<<<< HEAD
-    "net6.0-windows7.0": {}
-  },
-  "libraries": {},
-  "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
-=======
     "net6.0-windows7.0": {
       "FFCalcBusinessLogic/1.0.0": {
         "type": "project",
@@ -25,14 +17,13 @@
   "libraries": {
     "FFCalcBusinessLogic/1.0.0": {
       "type": "project",
-      "path": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj",
-      "msbuildProject": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj"
+      "path": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj",
+      "msbuildProject": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "FFCalcBusinessLogic >= 1.0.0"
->>>>>>> dev
     ]
   },
   "packageFolders": {
@@ -64,12 +55,9 @@
           "projectReferences": {
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
-<<<<<<< HEAD
-=======
             },
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculator\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
->>>>>>> dev
             }
           }
         }
@@ -105,20 +93,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-<<<<<<< HEAD
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
-=======
   }
->>>>>>> dev
 }
