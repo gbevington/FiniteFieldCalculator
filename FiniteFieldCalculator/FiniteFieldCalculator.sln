@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiniteFieldCalculator.Tests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFCalcUserInterfaceLogic", "..\FFCalcUserInterfaceLogic\FFCalcUserInterfaceLogic.csproj", "{C1F280DD-8689-4064-87E1-9672855394CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCalcBusinessLogic", "FFCalcBusinessLogic\FFCalcBusinessLogic.csproj", "{38877BE0-92F2-44F6-8286-2C31F6206190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFCalcBusinessLogic", "..\FFCalcBusinessLogic\FFCalcBusinessLogic.csproj", "{F22EC0FB-CA15-4F0A-BB49-9DAE6C51A6C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{C1F280DD-8689-4064-87E1-9672855394CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F280DD-8689-4064-87E1-9672855394CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F280DD-8689-4064-87E1-9672855394CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38877BE0-92F2-44F6-8286-2C31F6206190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38877BE0-92F2-44F6-8286-2C31F6206190}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38877BE0-92F2-44F6-8286-2C31F6206190}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38877BE0-92F2-44F6-8286-2C31F6206190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22EC0FB-CA15-4F0A-BB49-9DAE6C51A6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22EC0FB-CA15-4F0A-BB49-9DAE6C51A6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22EC0FB-CA15-4F0A-BB49-9DAE6C51A6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22EC0FB-CA15-4F0A-BB49-9DAE6C51A6C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,8 +17,8 @@
   "libraries": {
     "FFCalcBusinessLogic/1.0.0": {
       "type": "project",
-      "path": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj",
-      "msbuildProject": "../FiniteFieldCalculator/FFCalcBusinessLogic/FFCalcBusinessLogic.csproj"
+      "path": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj",
+      "msbuildProject": "../FiniteFieldCalculatorLogic/FFCalcBusinessLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -53,6 +53,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
+            },
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FiniteFieldCalculatorLogic\\FFCalcBusinessLogic.csproj"
             },

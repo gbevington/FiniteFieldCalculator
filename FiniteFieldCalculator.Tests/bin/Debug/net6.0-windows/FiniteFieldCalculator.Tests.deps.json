@@ -358,14 +358,6 @@
         "runtime": {
           "FFCalcUserInterfaceLogic.dll": {}
         }
-      },
-      "FFCalcBusinessLogic.Reference/1.0.0.0": {
-        "runtime": {
-          "FFCalcBusinessLogic.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -489,11 +481,6 @@
     },
     "FFCalcUserInterfaceLogic/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FFCalcBusinessLogic.Reference/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

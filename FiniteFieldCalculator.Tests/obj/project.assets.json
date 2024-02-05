@@ -1186,6 +1186,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcBusinessLogic\\FFCalcBusinessLogic.csproj"
+            },
             "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj": {
               "projectPath": "C:\\Users\\PC1\\Desktop\\FiniteFieldCalc\\FFCalcUserInterfaceLogic\\FFCalcUserInterfaceLogic.csproj"
             },
