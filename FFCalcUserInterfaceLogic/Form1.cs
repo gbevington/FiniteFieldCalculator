@@ -11,17 +11,36 @@ namespace FiniteFieldCalculator
             InitializeComponent();
         }
 
+        //calculate the square root of a BigInteger
+        public static BigInteger Sqrt(BigInteger n)
+        {
+            if (n == 0) return 0;
+            if (n == 1) return 1;
 
-        public static bool isPrime(int num)
+            BigInteger prev;
+            BigInteger result = n / 2;
+
+            do
+            {
+                prev = result;
+                result = (prev + n / prev) / 2;
+            } while ((prev - result) > 0);
+
+            return result;
+        }
+
+
+        public static bool isPrime(BigInteger num)
         {
             if (num <= 1)
             {
                 Console.WriteLine($"{num} is not prime (less than or equal to 1).");
-
                 return false;
             }
 
-            for (int i = 2; i <= Math.Sqrt(num); i++) // check up to square root of num for factors
+            BigInteger sqrtNum = Sqrt(num);
+
+            for (BigInteger i = 2; i <= sqrtNum; i++) // check up to square root of num for factors
             {
                 if (num % i == 0)
                 {
@@ -43,10 +62,10 @@ namespace FiniteFieldCalculator
 
         public void ProcessInput(string input)
         {
-            if (int.TryParse(input, out int intNum))
+            if (BigInteger.TryParse(input, out BigInteger bigIntNum))
             {
-                Console.WriteLine($"{intNum} converted from string data type to int data type.");
-                HandleSuccessfulConversion(intNum);
+                Console.WriteLine($"{bigIntNum} converted from string data type to BigInteger data type.");
+                HandleSuccessfulConversion(bigIntNum);
             }
             else
             {
@@ -54,9 +73,9 @@ namespace FiniteFieldCalculator
             }
         }
 
-        public void HandleSuccessfulConversion(int intNum)
+        public void HandleSuccessfulConversion(BigInteger bigIntNum)
         {
-            if (isPrime(intNum))
+            if (isPrime(bigIntNum))
             {
                 MessageBoxWrapper.Show("Input successful.");
             }
