@@ -89,7 +89,7 @@ namespace FiniteFieldCalculator
         }
 
         // convert text box input to integer
-        private bool textToBigInteger(TextBox textBox, out BigInteger value)
+        private bool textToBigInteger(TextBox textBox, string fieldName, out BigInteger value)
         {
             if (BigInteger.TryParse(textBox.Text, out value))
             {
@@ -97,7 +97,7 @@ namespace FiniteFieldCalculator
             }
             else
             {
-                MessageBox.Show($"Invalid input in {textBox.Name}.");
+                MessageBox.Show($"Invalid input in {fieldName} field.");
                 return false;
             }
         }
@@ -115,10 +115,14 @@ namespace FiniteFieldCalculator
 
         public void btnAdd_Click(object sender, EventArgs e)
         {
+            bool success = true;
+
             // convert input number strings to integers
-            if (textToBigInteger(txtOp1, out BigInteger intValue1) &&
-                textToBigInteger(txtOp2, out BigInteger intValue2) &&
-                textToBigInteger(txtPrime, out BigInteger inputPrime))
+            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
+
+            if (success)
             {
                 //check validity of operands against prime number
                 if (validOperand(intValue1, inputPrime) && validOperand(intValue2, inputPrime))
@@ -133,10 +137,14 @@ namespace FiniteFieldCalculator
 
         public void btnSubtract_Click(object sender, EventArgs e)
         {
+            bool success = true;
+
             // convert input number strings to integers
-            if (textToBigInteger(txtOp1, out BigInteger intValue1) &&
-                textToBigInteger(txtOp2, out BigInteger intValue2) &&
-                textToBigInteger(txtPrime, out BigInteger inputPrime))
+            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
+
+            if (success)
             {
                 //check validity of operands against prime number
                 if (validOperand(intValue1, inputPrime) && validOperand(intValue2, inputPrime))
@@ -152,10 +160,14 @@ namespace FiniteFieldCalculator
 
         public void btnMulti_Click(object sender, EventArgs e)
         {
+            bool success = true;
+
             // convert input number strings to integers
-            if (textToBigInteger(txtOp1, out BigInteger intValue1) &&
-                textToBigInteger(txtOp2, out BigInteger intValue2) &&
-                textToBigInteger(txtPrime, out BigInteger inputPrime))
+            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
+
+            if (success)
             {
                 //check validity of operands against prime number
                 if (validOperand(intValue1, inputPrime) && validOperand(intValue2, inputPrime))
@@ -169,10 +181,14 @@ namespace FiniteFieldCalculator
 
         public void btnDiv_Click(object sender, EventArgs e)
         {
+            bool success = true;
+
             // convert input number strings to integers
-            if (textToBigInteger(txtOp1, out BigInteger intValue1) && 
-                textToBigInteger(txtOp2, out BigInteger intValue2) && 
-                textToBigInteger(txtPrime, out BigInteger inputPrime))
+            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
+
+            if (success)
             {
                 //check validity of operands against prime number
                 if (validOperand(intValue1, inputPrime) && validOperand(intValue2, inputPrime))
@@ -187,10 +203,14 @@ namespace FiniteFieldCalculator
 
         public void btnExponent_Click(object sender, EventArgs e)
         {
-            //convert input number strings to big integers
-            if (textToBigInteger(txtOp1, out BigInteger intValue1) && 
-                textToBigInteger(txtExpo, out BigInteger intValue2) && 
-                textToBigInteger(txtPrime, out BigInteger inputPrime))
+            bool success = true;
+
+            // convert input number strings to integers
+            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
+
+            if (success)
             {
                 // check operand validity
                 if (validOperand(intValue1, inputPrime))
