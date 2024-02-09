@@ -11,61 +11,61 @@ namespace FiniteFieldCalculator
             InitializeComponent();
         }
 
-        //calculate the square root of a BigInteger
-        public static BigInteger Sqrt(BigInteger n)
-        {
-            if (n == 0) return 0;
-            if (n == 1) return 1;
+        ////calculate the square root of a BigInteger
+        //public static BigInteger Sqrt(BigInteger n)
+        //{
+        //    if (n == 0) return 0;
+        //    if (n == 1) return 1;
 
-            BigInteger prev;
-            BigInteger result = n / 2;
+        //    BigInteger prev;
+        //    BigInteger result = n / 2;
 
-            do
-            {
-                prev = result;
-                result = (prev + n / prev) / 2;
-            } while ((prev - result) > 0);
+        //    do
+        //    {
+        //        prev = result;
+        //        result = (prev + n / prev) / 2;
+        //    } while ((prev - result) > 0);
 
-            return result;
-        }
+        //    return result;
+        //}
 
 
-        public static bool isPrime(BigInteger num)
-        {
-            if (num <= 1)
-            {
-                Console.WriteLine($"{num} is not prime (less than or equal to 1).");
-                return false;
-            }
+        //public static bool isPrime(BigInteger num)
+        //{
+        //    if (num <= 1)
+        //    {
+        //        Console.WriteLine($"{num} is not prime (less than or equal to 1).");
+        //        return false;
+        //    }
 
-            BigInteger sqrtNum = Sqrt(num);
+        //    BigInteger sqrtNum = Sqrt(num);
 
-            for (BigInteger i = 2; i <= sqrtNum; i++) // check up to square root of num for factors
-            {
-                if (num % i == 0)
-                {
-                    Console.WriteLine($"{num} is not prime. Divisible by {i}.");
+        //    for (BigInteger i = 2; i <= sqrtNum; i++) // check up to square root of num for factors
+        //    {
+        //        if (num % i == 0)
+        //        {
+        //            Console.WriteLine($"{num} is not prime. Divisible by {i}.");
 
-                    return false;
-                }
-            }
+        //            return false;
+        //        }
+        //    }
 
-            Console.WriteLine($"{num} is prime.");
-            return true;    // num is prime
-        }
+        //    Console.WriteLine($"{num} is prime.");
+        //    return true;    // num is prime
+        //}
 
-        public void btnEnterPrime_Click(object sender, EventArgs e)
-        {
-            string input = txtPrime.Text;
-            ProcessInput(input);
-        }
+        //public void btnEnterPrime_Click(object sender, EventArgs e)
+        //{
+        //    string input = txtPrime.Text;
+        //    ProcessInput(input);
+        //}
 
         public void ProcessInput(string input)
         {
             if (BigInteger.TryParse(input, out BigInteger bigIntNum))
             {
                 Console.WriteLine($"{bigIntNum} converted from string data type to BigInteger data type.");
-                HandleSuccessfulConversion(bigIntNum);
+                // HandleSuccessfulConversion(bigIntNum);// !!! probably going to remove the Enter Prime button - either the calculator buttons are going to check for primality, or I might switch the text box such that primality is tested automatically upon input
             }
             else
             {
@@ -73,17 +73,17 @@ namespace FiniteFieldCalculator
             }
         }
 
-        public void HandleSuccessfulConversion(BigInteger bigIntNum)
-        {
-            if (isPrime(bigIntNum))
-            {
-                MessageBoxWrapper.Show("Input successful.");
-            }
-            else
-            {
-                MessageBoxWrapper.Show("Input failed. Please enter a prime number.");
-            }
-        }
+        //public void HandleSuccessfulConversion(BigInteger bigIntNum)
+        //{
+        //    if (isPrime(bigIntNum))
+        //    {
+        //        MessageBoxWrapper.Show("Input successful.");
+        //    }
+        //    else
+        //    {
+        //        MessageBoxWrapper.Show("Input failed. Please enter a prime number.");
+        //    }
+        //}
 
 
         public void handleSelectedNISTPrime(string prime)

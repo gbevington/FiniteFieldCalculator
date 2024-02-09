@@ -55,7 +55,7 @@
             btnEnterPrime.TabIndex = 31;
             btnEnterPrime.Text = "Enter Prime #";
             btnEnterPrime.UseVisualStyleBackColor = true;
-            btnEnterPrime.Click += btnEnterPrime_Click;
+            //!!! to delete btnEnterPrime.Click += btnEnterPrime_Click;
             // 
             // btnDiv
             // 
