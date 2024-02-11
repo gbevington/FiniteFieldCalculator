@@ -10,8 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FFCalcBusinessLogic\FFCalcBusinessLogic.csproj" />
-    <ProjectReference Include="..\FiniteFieldCalculatorLogic\FFCalcBusinessLogic.csproj" />
-    <ProjectReference Include="..\FiniteFieldCalculator\FFCalcBusinessLogic\FFCalcBusinessLogic.csproj" />
   </ItemGroup>
 
   <ItemGroup>

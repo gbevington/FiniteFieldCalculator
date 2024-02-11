@@ -1,4 +1,5 @@
 using System.Numerics;
+using FFCalcBusinessLogic;
 using FFCalcUserInterfaceLogic.Wrappers;
 
 namespace FiniteFieldCalculator
@@ -9,6 +10,30 @@ namespace FiniteFieldCalculator
         public Form1()
         {
             InitializeComponent();
+            // Wire up the event handler for the TextChanged event of txtPrime
+            txtPrime.TextChanged += TxtPrime_TextChanged;
+        }
+
+        private void TxtPrime_TextChanged(object sender, EventArgs e)
+        {
+            // Call a method to check primality when the text in txtPrime changes
+            
+            CheckPrimeValidity();
+        }
+
+        private void CheckPrimeValidity()   //!!! this isn't running right now
+        {   
+            string input = txtPrime.Text;
+            if (BigInteger.TryParse(input, out BigInteger number))
+            {
+                MessageBox.Show("bool is prime stuff");
+                bool isPrime = ValidationMethods.IsPrime(number);
+                txtPrime.BackColor = isPrime ? Color.LightGreen : Color.LightCoral;
+            }
+            else
+            {
+                txtPrime.BackColor = SystemColors.Window;
+            }
         }
 
         ////calculate the square root of a BigInteger
