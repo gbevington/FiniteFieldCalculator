@@ -109,8 +109,8 @@ namespace FiniteFieldCalculator
             bool success = true;
 
             // convert input number strings to integers
-            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
-            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtOp1, "Operand A", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand B", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 
             if (success)
@@ -131,8 +131,8 @@ namespace FiniteFieldCalculator
             bool success = true;
 
             // convert input number strings to integers
-            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
-            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtOp1, "Operand A", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand B", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 
             if (success)
@@ -154,8 +154,8 @@ namespace FiniteFieldCalculator
             bool success = true;
 
             // convert input number strings to integers
-            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
-            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtOp1, "Operand A", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand B", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 
             if (success)
@@ -175,8 +175,8 @@ namespace FiniteFieldCalculator
             bool success = true;
 
             // convert input number strings to integers
-            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
-            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtOp1, "Operand A", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp2, "Operand B", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 
             if (success)
@@ -197,7 +197,7 @@ namespace FiniteFieldCalculator
             bool success = true;
 
             // convert input number strings to integers
-            success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
+            success &= textToBigInteger(txtOp1, "Operand A", out BigInteger intValue1);
             success &= textToBigInteger(txtExpo, "Exponent", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 

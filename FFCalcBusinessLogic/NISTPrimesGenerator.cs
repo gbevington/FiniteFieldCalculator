@@ -21,7 +21,7 @@ namespace FFCalcBusinessLogic
 
         public static BigInteger GetP256()
         {
-            return BigInteger.Pow(2, 256) - BigInteger.Pow(2, 244) + BigInteger.Pow(2, 192) + BigInteger.Pow(2, 96) - BigInteger.One;
+            return BigInteger.Pow(2, 256) - BigInteger.Pow(2, 224) + BigInteger.Pow(2, 192) + BigInteger.Pow(2, 96) - BigInteger.One;
         }
 
         public static BigInteger GetP384()
