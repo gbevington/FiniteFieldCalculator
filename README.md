@@ -24,14 +24,9 @@ To use this application, follow these steps:
 
 4. Run the application to perform finite field calculations.
 
-### Executable Release
-
-Alternatively, you can access the pre-built executable on the repository's release page. This allows users to skip the compilation process and directly use the application.
-![WindowsGUIScrnShot](https://github.com/gbevington/FiniteFieldCalculator/assets/133910347/a258d856-357b-4df4-ba34-239bf0ccb1c9)
-
 
 ## Upcoming Changes
 
-- Increased encapsulation of methods: The project aims to enhance code organization by increasing the encapsulation of methods, improving maintainability and readability.
+- The project is currently employing the (probabilistic) Miller-Rabin primality test ( https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test ) to confirm the primality of input. This seems to work quickly for very large numbers, but there is a possibility of greater accuracy with the use of (deterministic) elliptic curve primality testing - so, upcoming versions of the application aim to employ the latter style of test.
 
 - Linux GUI: Future releases will include a graphical user interface (GUI) for Linux, providing a cross-platform solution for users on different operating systems.
