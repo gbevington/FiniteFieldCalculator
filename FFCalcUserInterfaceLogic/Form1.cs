@@ -13,6 +13,10 @@ namespace FiniteFieldCalculator
             InitializeComponent();
             // Wire up the event handler for the TextChanged event of txtPrime
             txtPrime.TextChanged += TxtPrime_TextChanged;
+
+            // Disable other input fields initially
+            txtOp1.Enabled = false;
+            txtOp2.Enabled = false;
         }
 
         private void TxtPrime_TextChanged(object sender, EventArgs e)
@@ -29,6 +33,10 @@ namespace FiniteFieldCalculator
             {
                 bool isPrime = ValidationMethods.IsPrime(number);
                 txtPrime.BackColor = isPrime ? Color.LightGreen : Color.LightCoral;
+
+                // Enable other input fields based on primality
+                txtOp1.Enabled = isPrime;
+                txtOp2.Enabled = isPrime;
             }
             else
             {
