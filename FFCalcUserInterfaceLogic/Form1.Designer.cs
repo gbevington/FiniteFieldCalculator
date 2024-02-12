@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnEnterPrime = new Button();
             btnDiv = new Button();
             btnMulti = new Button();
             btnSubtract = new Button();
@@ -46,16 +45,6 @@
             txtPrime = new TextBox();
             btnExponent = new Button();
             SuspendLayout();
-            // 
-            // btnEnterPrime
-            // 
-            btnEnterPrime.Location = new Point(151, 66);
-            btnEnterPrime.Name = "btnEnterPrime";
-            btnEnterPrime.Size = new Size(101, 23);
-            btnEnterPrime.TabIndex = 31;
-            btnEnterPrime.Text = "Enter Prime #";
-            btnEnterPrime.UseVisualStyleBackColor = true;
-            //!!! to delete btnEnterPrime.Click += btnEnterPrime_Click;
             // 
             // btnDiv
             // 
@@ -99,7 +88,7 @@
             // 
             // btnNIST
             // 
-            btnNIST.Location = new Point(54, 52);
+            btnNIST.Location = new Point(399, 94);
             btnNIST.Name = "btnNIST";
             btnNIST.Size = new Size(75, 51);
             btnNIST.TabIndex = 26;
@@ -153,7 +142,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(75, 27);
+            label1.Location = new Point(75, 57);
             label1.Name = "label1";
             label1.Size = new Size(54, 15);
             label1.TabIndex = 20;
@@ -182,7 +171,7 @@
             // 
             // txtPrime
             // 
-            txtPrime.Location = new Point(152, 27);
+            txtPrime.Location = new Point(152, 57);
             txtPrime.Name = "txtPrime";
             txtPrime.Size = new Size(402, 23);
             txtPrime.TabIndex = 16;
@@ -203,7 +192,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(568, 362);
             Controls.Add(btnExponent);
-            Controls.Add(btnEnterPrime);
             Controls.Add(btnDiv);
             Controls.Add(btnMulti);
             Controls.Add(btnSubtract);
@@ -226,8 +214,6 @@
         }
 
         #endregion
-
-        private Button btnEnterPrime;
         private Button btnDiv;
         private Button btnMulti;
         private Button btnSubtract;
