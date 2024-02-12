@@ -4,6 +4,7 @@ using FFCalcUserInterfaceLogic.Wrappers;
 
 namespace FiniteFieldCalculator
 {
+    //!!! re-add something to prevent the use of non-prime finite field
 
     public partial class Form1 : Form
     {
@@ -17,16 +18,15 @@ namespace FiniteFieldCalculator
         private void TxtPrime_TextChanged(object sender, EventArgs e)
         {
             // Call a method to check primality when the text in txtPrime changes
-            
+
             CheckPrimeValidity();
         }
 
-        private void CheckPrimeValidity()   //!!! this isn't running right now
-        {   
+        private void CheckPrimeValidity()
+        {
             string input = txtPrime.Text;
             if (BigInteger.TryParse(input, out BigInteger number))
             {
-                MessageBox.Show("bool is prime stuff");
                 bool isPrime = ValidationMethods.IsPrime(number);
                 txtPrime.BackColor = isPrime ? Color.LightGreen : Color.LightCoral;
             }
@@ -36,54 +36,6 @@ namespace FiniteFieldCalculator
             }
         }
 
-        ////calculate the square root of a BigInteger
-        //public static BigInteger Sqrt(BigInteger n)
-        //{
-        //    if (n == 0) return 0;
-        //    if (n == 1) return 1;
-
-        //    BigInteger prev;
-        //    BigInteger result = n / 2;
-
-        //    do
-        //    {
-        //        prev = result;
-        //        result = (prev + n / prev) / 2;
-        //    } while ((prev - result) > 0);
-
-        //    return result;
-        //}
-
-
-        //public static bool isPrime(BigInteger num)
-        //{
-        //    if (num <= 1)
-        //    {
-        //        Console.WriteLine($"{num} is not prime (less than or equal to 1).");
-        //        return false;
-        //    }
-
-        //    BigInteger sqrtNum = Sqrt(num);
-
-        //    for (BigInteger i = 2; i <= sqrtNum; i++) // check up to square root of num for factors
-        //    {
-        //        if (num % i == 0)
-        //        {
-        //            Console.WriteLine($"{num} is not prime. Divisible by {i}.");
-
-        //            return false;
-        //        }
-        //    }
-
-        //    Console.WriteLine($"{num} is prime.");
-        //    return true;    // num is prime
-        //}
-
-        //public void btnEnterPrime_Click(object sender, EventArgs e)
-        //{
-        //    string input = txtPrime.Text;
-        //    ProcessInput(input);
-        //}
 
         public void ProcessInput(string input)
         {
@@ -97,19 +49,6 @@ namespace FiniteFieldCalculator
                 MessageBox.Show("Input error. Please enter an integer.");
             }
         }
-
-        //public void HandleSuccessfulConversion(BigInteger bigIntNum)
-        //{
-        //    if (isPrime(bigIntNum))
-        //    {
-        //        MessageBoxWrapper.Show("Input successful.");
-        //    }
-        //    else
-        //    {
-        //        MessageBoxWrapper.Show("Input failed. Please enter a prime number.");
-        //    }
-        //}
-
 
         public void handleSelectedNISTPrime(string prime)
         {
@@ -251,7 +190,7 @@ namespace FiniteFieldCalculator
 
             // convert input number strings to integers
             success &= textToBigInteger(txtOp1, "Operand 1", out BigInteger intValue1);
-            success &= textToBigInteger(txtOp2, "Operand 2", out BigInteger intValue2);
+            success &= textToBigInteger(txtExpo, "Exponent", out BigInteger intValue2);
             success &= textToBigInteger(txtPrime, "Prime", out BigInteger inputPrime);
 
             if (success)
